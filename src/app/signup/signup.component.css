@@ -1,0 +1,30 @@
+form
+{
+    
+    background-image:url(https://i.postimg.cc/3RCz96rd/11667025-20943394.jpg);
+    background-size: cover;
+}
+form:hover
+{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 600px)
+{
+    .div1
+    {
+        font-size:25vw;
+    }
+    .img1
+    {
+        width: 25px;
+        height: 25px;
+    }
+    .form1
+    {
+        .form-fields input[type="text"]
+         {
+            max-width: 100%;
+        }
+    }
+}
+    
