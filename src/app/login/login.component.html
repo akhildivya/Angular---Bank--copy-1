@@ -10,12 +10,12 @@
         <form>
           <!-- Email input -->
           <div class="form-outline mb-4">
-            <input (change)="acnochange($event)" [placeholder]="data1" type="text" id="u1" name="unmae" class="form-control form-control-lg" />
+            <input [(ngModel)]="ano"   (change)="acnochange($event)" [placeholder]="data1" type="text" id="u1" name="ac1" class="form-control form-control-lg" />
           </div>
 
           <!-- Password input -->
           <div class="form-outline mb-4">
-            <input placeholder="password" type="password" id="p1" name="password" class="form-control form-control-lg" />
+            <input [(ngModel)]="psw" placeholder="password" type="password" id="p1" name="password" class="form-control form-control-lg" />
             
           </div>
 
@@ -25,7 +25,7 @@
               
               <label class="form-check-label" for="form1Example3"> dont have account? </label>
             </div>
-            <a href="#!">Create account</a>
+            <a href="/signup">Create account</a>
           </div>
 
           <!-- Submit button -->
